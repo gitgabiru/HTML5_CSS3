@@ -1,5 +1,5 @@
 header {
-    background-color: rgb(67, 0, 145);
+    background-color: rgb(71, 26, 0);
     padding: 20px 0;
 }
 
@@ -27,4 +27,36 @@ nav a{
     font-size: 22px;
     text-decoration: none;
 
+}
+
+.produtos{
+    width: fit-content;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.produtos h2{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.produtos li{
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+    width: 30%;
+    margin: 0 1.5%;
+    padding: 2px;
+    box-sizing: border-box;
+    border: 2px solid #000;
+}
+
+.descricao-produto {
+    margin: 0 1.5%;
+}
+
+.preco-produto {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 1.5%;
 }
