@@ -80,3 +80,14 @@ nav a:hover {
     font-weight: bold;
     margin-top: 1.5%;
 }
+
+footer {
+    text-align: center;
+    background: url("./img/produtos/bg.jpg");
+    padding: 20px 0;
+}
+
+.copyright {
+    color: #FFF;
+    margin-top: 5px;
+}
