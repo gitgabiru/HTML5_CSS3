@@ -42,3 +42,19 @@ nav a:hover {
     text-decoration: underline;
     font-size: 18px;
 }
+
+.home {
+    position: static;
+}
+
+.home img{
+    width: 100%;
+    height: auto;
+    max-height: 400px;
+}
+
+.home h1{
+    position: absolute;
+    top: 0;
+    right: 10;
+}
