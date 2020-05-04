@@ -101,7 +101,7 @@ form {
     margin: 40px 0;
 }
 
-form label, form p {
+form label, form legend {
     display: block;
     margin: 20px 0 10px 0 ;
     font-size: 18px;
