@@ -1,0 +1,60 @@
+header {
+    height: 40px;
+    width: 100%;
+    background: url("../img/bg.jpg");
+    padding: 5px auto;
+    position: fixed;
+}
+
+.caixa {
+    position: relative;
+    width: 90%;
+    margin: 0 auto;
+}
+
+header img {
+    max-height: 36px;
+    height: auto;
+    width: auto;
+    margin: 2px auto;
+}
+
+nav {
+    position: absolute;
+    top: 10px;
+    right: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 2px;
+}
+
+nav a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #FFF;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: rgb(7, 135, 167);
+    text-decoration: underline;
+    font-size: 18px;
+}
+
+.home {
+    position: static;
+}
+
+.home img{
+    width: 100%;
+    height: auto;
+    max-height: 400px;
+}
+
+.home h1{
+    position: absolute;
+    top: 0;
+    right: 10;
+}

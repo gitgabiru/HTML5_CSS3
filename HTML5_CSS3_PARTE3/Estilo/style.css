@@ -1,0 +1,150 @@
+header {
+    background-color: rgb(71, 26, 0);
+    padding: 20px 0;
+}
+
+.caixa {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+
+}
+
+nav {
+    position: absolute;
+    top: 120px;
+    right: 0;
+}
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a{
+    text-transform: uppercase;
+    color: #000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+
+}
+
+nav a:hover {
+    color: #C78C19;
+    text-decoration: underline;
+}
+
+.produtos{
+    width: fit-content;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.produtos h2{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.produtos li{
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+    width: 30%;
+    margin: 0 1.5%;
+    padding: 4px 2px;
+    box-sizing: border-box;
+    border: 2px solid #000;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.produtos li:hover {
+    border-color: #C78C19;
+}
+
+.produtos li:hover h2{
+    font-size: 34px;
+}
+
+.produtos li:active {
+    border-color: rgb(255, 170, 0);
+}
+
+.descricao-produto {
+    font-size: 18px;
+    margin: 0 1.5%;
+}
+
+.preco-produto {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 1.5%;
+}
+
+footer {
+    text-align: center;
+    background: url("../img/produtos/bg.jpg");
+    padding: 20px 0;
+}
+
+.copyright {
+    color: #FFF;
+    margin-top: 5px;
+}
+
+main {
+    width: 940px;
+    margin: 0 auto;
+    padding-bottom: 30px;
+}
+
+form {
+    margin: 40px 0;
+}
+
+form label, form legend {
+    display: block;
+    margin: 20px 0 10px 0 ;
+    font-size: 18px;
+}
+
+.input-padrao {
+    display: block;
+    margin: 20px 0 10px 0 ;
+    padding: 10px 25px;
+    width: 50%;
+}
+
+.checkbox {
+    margin: 20px 0;
+}
+
+.botao {
+    width: 40%;
+    padding: 20px 0;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(101, 9, 187);
+    color: white;
+    transition: 1s all;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.botao:hover {
+    background-color: rgb(60, 7, 110);
+    width: 50%;
+    transform: rotate(360deg);
+}
+
+thead {
+    background-color: #555;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+td, th {
+    padding: 8px 15px;
+    border: 1px solid #000;
+}
