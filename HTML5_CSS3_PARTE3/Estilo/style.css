@@ -95,6 +95,7 @@ footer {
 main {
     width: 940px;
     margin: 0 auto;
+    padding-bottom: 30px;
 }
 
 form {
@@ -116,4 +117,34 @@ form label, form legend {
 
 .checkbox {
     margin: 20px 0;
+}
+
+.botao {
+    width: 40%;
+    padding: 20px 0;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(101, 9, 187);
+    color: white;
+    transition: 1s all;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.botao:hover {
+    background-color: rgb(60, 7, 110);
+    width: 50%;
+    transform: rotate(360deg);
+}
+
+thead {
+    background-color: #555;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+td, th {
+    padding: 8px 15px;
+    border: 1px solid #000;
 }
